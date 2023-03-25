@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+html,
+html {
+  scroll-behavior: smooth;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -52,7 +57,7 @@ a {
   position: relative;
   display: flex;
   background: #e6f0ff;
-  height: 91vh;
+  height: calc(100vh - 86px);
 }
 
 .navbar {
