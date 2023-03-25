@@ -38,16 +38,27 @@ a {
 }
 
 /* ============ Header ============ */
-.header {
-  padding-top: 38px;
-  position: relative;
+.head {
+  /* background: orange; */
   background: #e6f0ff;
-  height: 100vh;
+  position: sticky;
+  padding-top: 26px;
+  top: -26px;
+  z-index: 1;
 }
 
-.header .navbar {
+.header {
+  /* padding-top: 38px; */
+  position: relative;
+  display: flex;
+  background: #e6f0ff;
+  height: 91vh;
+}
+
+.navbar {
   display: flex;
   align-items: center;
+  padding: 10px 0;
 }
 
 .navbar ul {
