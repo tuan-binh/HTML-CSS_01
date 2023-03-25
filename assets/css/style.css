@@ -56,6 +56,8 @@ a {
   /* padding-top: 38px; */
   position: relative;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   background: #e6f0ff;
   height: calc(100vh - 86px);
 }
@@ -100,7 +102,6 @@ a {
 }
 
 .header .hero {
-  margin-top: calc(100vh - (38px + 40px) - 371px - 157px);
   width: 51%;
 }
 
