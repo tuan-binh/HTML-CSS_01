@@ -163,6 +163,7 @@ a {
 }
 
 .clients .brand:hover {
+  cursor: pointer;
   -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
@@ -587,6 +588,10 @@ a {
   align-items: center;
   width: 28px;
   height: 28px;
+}
+
+.footer .social-link + .social-link {
+  margin-left: 16px;
 }
 
 .footer .end {
